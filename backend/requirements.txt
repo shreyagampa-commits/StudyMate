@@ -1,0 +1,9 @@
+flask
+flask-cors
+torch
+numpy
+pymupdf
+requests
+python-dotenv
+scikit-learn
+faiss-cpu

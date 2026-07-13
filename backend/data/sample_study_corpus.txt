@@ -1,0 +1,60 @@
+Artificial Intelligence
+- Artificial Intelligence is the field of building systems that can perform tasks requiring human-like reasoning, perception, planning, or learning.
+- Machine learning is a subfield of AI where algorithms learn patterns from data instead of being explicitly programmed for every rule.
+- Deep learning uses multi-layer neural networks to learn complex representations from data such as images, text, audio, and tabular features.
+- Supervised learning trains models using labeled examples where each input has a known target output.
+- Unsupervised learning finds hidden patterns or groups in data without using labeled target outputs.
+- Reinforcement learning trains an agent to make decisions by receiving rewards or penalties from an environment.
+
+NLP and RAG
+- Natural Language Processing helps computers understand, analyze, generate, and retrieve information from human language.
+- Tokenization splits raw text into smaller units such as words, subwords, or tokens before sending text into a model.
+- Embeddings convert words, sentences, or documents into dense numerical vectors that capture semantic meaning.
+- Semantic search retrieves information based on meaning rather than exact keyword matching.
+- Retrieval-Augmented Generation first retrieves relevant context from documents and then uses a language model to generate a grounded answer.
+- Chunking splits long documents into smaller overlapping passages so retrieval systems can search precise sections.
+- FAISS is a vector similarity search library commonly used to index embeddings and retrieve nearest neighbors efficiently.
+- Cosine similarity measures how close two vectors are by comparing the angle between them rather than their magnitude.
+
+Transformers
+- A Transformer Encoder processes a sequence using self-attention to capture relationships between all tokens in the input.
+- Self-attention allows each token to focus on other relevant tokens in the same sequence when building contextual representations.
+- Positional embeddings add order information to token embeddings because transformers do not naturally process sequence order.
+- Mean pooling combines token-level encoder outputs into one fixed-size sentence or document embedding.
+- Triplet loss trains embeddings by pulling similar anchor-positive pairs closer and pushing unrelated negative examples farther away.
+
+Databases
+- A Database Management System stores, organizes, retrieves, and manages structured data efficiently.
+- SQL is a structured query language used to create, retrieve, update, and delete relational database records.
+- Normalization reduces redundancy and update anomalies by organizing data into related tables.
+- Indexes improve database search performance by allowing faster lookup of rows based on selected columns.
+- Transactions follow ACID properties to ensure reliable database operations even during failures or concurrent access.
+
+Operating Systems
+- An operating system manages hardware resources and provides services for applications and users.
+- Process scheduling decides which process gets CPU time and helps support multitasking.
+- Virtual memory gives each process the illusion of a large continuous memory space using RAM and disk storage.
+- Deadlock occurs when processes wait indefinitely for resources held by each other.
+- File systems organize and store files on secondary storage using directories, metadata, and allocation methods.
+
+Computer Networks
+- Computer networks connect devices so they can share data, resources, and services using communication protocols.
+- The TCP/IP model organizes communication into layers such as application, transport, internet, and network access.
+- TCP provides reliable connection-oriented communication using acknowledgements, sequencing, and retransmission.
+- HTTP is an application-layer protocol used by web clients and servers to exchange requests and responses.
+- DNS translates human-readable domain names into IP addresses used by computers to locate servers.
+
+Cloud and DevOps
+- Cloud computing provides on-demand access to computing resources such as servers, storage, databases, and networking over the internet.
+- Docker packages an application with its dependencies into a container so it can run consistently across environments.
+- CI/CD automates building, testing, and deploying software to make releases faster and more reliable.
+- Load balancing distributes incoming traffic across multiple servers to improve availability and performance.
+- Monitoring tracks system metrics, logs, and alerts to detect failures and performance issues early.
+
+Software Engineering
+- REST APIs expose application functionality through HTTP endpoints using methods such as GET, POST, PUT, and DELETE.
+- Flask is a lightweight Python web framework used to build APIs and web applications quickly.
+- Version control systems like Git track code changes and support collaboration between developers.
+- Unit testing verifies small parts of code independently to catch errors early during development.
+- Scalable applications are designed to handle growing users, data, and traffic without major redesign.
+
